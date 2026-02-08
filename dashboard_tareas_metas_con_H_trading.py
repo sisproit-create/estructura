@@ -71,23 +71,59 @@ DEFAULT_TASKS = {
         "Dar seguimiento a la reparación del auto (pintar retrovisores).",
         "Dar seguimiento a publicación y venta del auto en Marketplace y Encuentra24.",
     ],
-    "H. Trading — Identidad, Checklist y Mantra Diario": [
-        "Soy una persona disciplinada y constante en el trading.",
-        "Mi objetivo financiero es alcanzar un millón de dólares.",
-        "Mi tarea diaria es ejecutar mi proceso de trading sin improvisar.",
-        "Opero con un capital inicial de 800 USD enfocado en consistencia, no prisa.",
-        "Repito el proceso hasta que la constancia sea un hábito automático.",
-        "Cuando el hábito está consolidado, incremento capital y repito el proceso.",
-        "Mi prioridad es control emocional, disciplina y respeto del proceso.",
-        "El dinero es la consecuencia natural de ejecutar correctamente el sistema.",
+    # =========================
+    # H — SISTEMA DE LIBERTAD FINANCIERA
+    # =========================
 
-        "Hoy solo tengo una tarea: ejecutar mi proceso de trading con disciplina.",
-        "No persigo dinero, persigo consistencia.",
-        "Mi capital crece como resultado de hacer bien el proceso.",
-        "Mantengo control emocional y respeto mis invalidaciones.",
-        "La constancia es mi ventaja.",
-        "La constancia me lleva al millón."
+    "H1_IDENTIDAD_OPERATIVA": [
+        "Soy una persona disciplinada y constante en el trading",
+        "Mi objetivo financiero es alcanzar un millón de dólares",
+        "Mi tarea diaria es ejecutar mi proceso de trading sin improvisar",
+        "Opero con un capital inicial de 800 USD, enfocado en duplicarlo con consistencia, no con prisa",
+        "Repito el proceso hasta que la constancia sea un hábito automático",
+        "Cuando el hábito está consolidado, incremento el capital y repito exactamente el mismo proceso",
+        "Mi prioridad es control emocional, disciplina y respeto del proceso",
+        "El dinero es la consecuencia natural de ejecutar correctamente el sistema"
     ],
+
+    "H2_MANTRA_OPERATIVO_DIARIO": [
+        "Hoy solo tengo una tarea: ejecutar mi proceso de trading con disciplina",
+        "No persigo dinero, persigo consistencia",
+        "Mi capital crece como resultado de hacer bien el proceso, una y otra vez",
+        "Mantengo control emocional, sigo mis reglas y respeto mis invalidaciones",
+        "La constancia es mi ventaja",
+        "La constancia me lleva al millón"
+    ],
+
+    "H3_ACTIVACION_DIARIA_FILTRO_DE_PERMISO": [
+        "Leí el mantra operativo",
+        "Revisé el checklist diario",
+        "Estoy emocionalmente estable para operar",
+        "El mercado cumple mis condiciones",
+        "Estoy dispuesto a cerrar sesión aunque pierda"
+    ],
+
+    "H4_EJECUCION_CONTROLADA_REGLAS_DURANTE_SESION": [
+        "Operé solo Setups permitidos (A / B / C)",
+        "Respeté el riesgo diario máximo",
+        "Operé dentro del horario definido",
+        "No improvisé operaciones",
+        "No intenté recuperar pérdidas"
+    ],
+
+    "H5_CIERRE_DE_SESION_OBLIGATORIO": [
+        "Cerré la plataforma al finalizar la sesión",
+        "No hice overtrading",
+        "No abrí operaciones tardías",
+        "No revisé el mercado después de cerrar"
+    ],
+
+    "H6_EVALUACION_DIARIA_NO_MONETARIA": [
+        "Seguí el proceso correctamente",
+        "Respeté todas mis reglas",
+        "Mantuve control emocional durante la sesión"
+    ],
+    
     "I. Inversión patrimonial personal": [
         "Comprar apartamento en Punta Pacífica, Panamá.",
         "Buscar apartamento adecuado en el momento oportuno.",
