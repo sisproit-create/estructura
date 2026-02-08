@@ -1,20 +1,6 @@
 {
   "A. Gratitud y enfoque diario": [
     {
-      "text": "Agradecer 3 cosas cada mañana",
-      "done": false,
-      "notes": "",
-      "priority": "Media",
-      "due": null
-    },
-    {
-      "text": "Definir la intención del día",
-      "done": false,
-      "notes": "",
-      "priority": "Media",
-      "due": null
-    },
-    {
       "text": "Agradecer por lo feliz y maravilloso que me siento con esta vida hoy.",
       "done": false,
       "notes": "",
@@ -99,88 +85,7 @@
       "due": null
     },
     {
-      "text": "Transmutar impulsos sexuales en energía productiva (creatividad y logros).",
-      "done": false,
-      "notes": "",
-      "priority": "Media",
-      "due": null
-    }
-  ],
-  "G. Otros compromisos y pendientes": [
-    {
-      "text": "Dar seguimiento a la reparación del auto (pintar retrovisores).",
-      "done": false,
-      "notes": "",
-      "priority": "Media",
-      "due": null
-    },
-    {
-      "text": "Dar seguimiento a publicación y venta del auto en Marketplace y Encuentra24.",
-      "done": false,
-      "notes": "",
-      "priority": "Media",
-      "due": null
-    }
-  ],
-  "I. Inversión patrimonial personal": [
-    {
-      "text": "Comprar apartamento en Punta Pacífica, Panamá",
-      "done": false,
-      "notes": "",
-      "priority": "Media",
-      "due": null
-    },
-    {
-      "text": "Buscar apartamento adecuado en el momento oportuno",
-      "done": false,
-      "notes": "",
-      "priority": "Media",
-      "due": null
-    },
-    {
-      "text": "Recordatorio: aunque no sea nuevo, tendrá la vista que quiero.",
-      "done": false,
-      "notes": "",
-      "priority": "Media",
-      "due": null
-    },
-    {
-      "text": "Invertir lo justo, remodelar poco a poco e incrementar valor.",
-      "done": false,
-      "notes": "",
-      "priority": "Media",
-      "due": null
-    },
-    {
-      "text": "Mantener esta meta como parte del plan patrimonial.",
-      "done": false,
-      "notes": "",
-      "priority": "Media",
-      "due": null
-    },
-    {
-      "text": "Comprar Mercedes Clase G63 con mis ganancias como símbolo de progreso.",
-      "done": false,
-      "notes": "",
-      "priority": "Media",
-      "due": null
-    },
-    {
-      "text": "Comprar apartamento en Punta Pacífica, Panamá.",
-      "done": false,
-      "notes": "",
-      "priority": "Media",
-      "due": null
-    },
-    {
-      "text": "Buscar apartamento adecuado en el momento oportuno.",
-      "done": false,
-      "notes": "",
-      "priority": "Media",
-      "due": null
-    },
-    {
-      "text": "Comprar Mercedes Clase G63 con ganancias como símbolo de progreso.",
+      "text": "Transmutar impulsos sexuales en energía productiva.",
       "done": false,
       "notes": "",
       "priority": "Media",
@@ -189,42 +94,35 @@
   ],
   "B. Salud y bienestar personal": [
     {
-      "text": "Seguimiento a exámenes pendientes por autorización; planificar operación de la vesícula.",
-      "done": false,
-      "notes": "cita en Consultorio del Dr. Carlos Tuñon.  Panama Clinic, Confirmar antes.",
+      "text": "Seguimiento a exámenes pendientes por autorización.",
+      "done": true,
+      "notes": "cita en Consultorio del Dr. Carlos Tuñon. Panama Clinic, Confirmar antes.",
       "priority": "Alta",
       "due": "2026-02-19"
     },
     {
-      "text": "Continuar salud dental; sacar otra cita y seguir tratamiento.",
-      "done": false,
+      "text": "Continuar salud dental.",
+      "done": true,
       "notes": "sacar la cita con tiempo.",
-      "priority": "Media",
-      "due": "2026-02-14"
+      "priority": "Alta",
+      "due": "2026-02-13"
     },
     {
-      "text": "Actividad física (mínimo 3 días/semana).",
+      "text": "Actividad física mínimo 3 días por semana.",
       "done": false,
       "notes": "",
       "priority": "Media",
       "due": null
     },
     {
-      "text": "Comprar comida saludable y jugo verde para la mañana.",
+      "text": "Comprar comida saludable.",
       "done": false,
       "notes": "",
       "priority": "Media",
       "due": null
     },
     {
-      "text": "Crear hábito de levantarme a las 5:30 a. m.",
-      "done": false,
-      "notes": "",
-      "priority": "Media",
-      "due": null
-    },
-    {
-      "text": "Alinear buena alimentación con comida sana, rendidora y con ahorro.",
+      "text": "Crear hábito de levantarme a las 5:30 a.m.",
       "done": false,
       "notes": "",
       "priority": "Media",
@@ -233,21 +131,14 @@
   ],
   "C. Lectura y aprendizaje": [
     {
-      "text": "Terminar de leer El código del dinero y luego Hábitos atómicos.",
+      "text": "Terminar El código del dinero.",
       "done": false,
       "notes": "",
       "priority": "Media",
       "due": null
     },
     {
-      "text": "Comprar libros  E-Myth.",
-      "done": false,
-      "notes": "",
-      "priority": "Media",
-      "due": null
-    },
-    {
-      "text": "Leer libro de Cemento Asfáltico.",
+      "text": "Leer Hábitos Atómicos.",
       "done": false,
       "notes": "",
       "priority": "Media",
@@ -255,13 +146,6 @@
     },
     {
       "text": "Retomar clases de inglés.",
-      "done": false,
-      "notes": "",
-      "priority": "Media",
-      "due": null
-    },
-    {
-      "text": "Comprar libros en Colombia (Padre Rico–Padre Pobre, Secretos mente millonaria, Mi primer millón, E-Myth).",
       "done": false,
       "notes": "",
       "priority": "Media",
@@ -408,6 +292,151 @@
     },
     {
       "text": "Estructurar uso de laboratorio, manejo de pruebas y procedimientos.",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    }
+  ],
+  "G. Otros compromisos y pendientes": [],
+  "H. Trading — Identidad, Checklist y Mantra Diario": [
+    {
+      "text": "Soy una persona disciplinada y constante en el trading.",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "Mi objetivo financiero es alcanzar un millón de dólares.",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "Mi tarea diaria es ejecutar mi proceso de trading sin improvisar.",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "Opero con un capital inicial de 800 USD enfocado en consistencia, no prisa.",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "Repito el proceso hasta que la constancia sea un hábito automático.",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "Cuando el hábito está consolidado, incremento capital y repito el proceso.",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "Mi prioridad es control emocional, disciplina y respeto del proceso.",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "El dinero es la consecuencia natural de ejecutar correctamente el sistema.",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "Hoy solo tengo una tarea: ejecutar mi proceso de trading con disciplina.",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "No persigo dinero, persigo consistencia.",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "Mi capital crece como resultado de hacer bien el proceso.",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "Mantengo control emocional y respeto mis invalidaciones.",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "La constancia es mi ventaja.",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "La constancia me lleva al millón.",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    }
+  ],
+  "I. Inversión patrimonial personal": [
+    {
+      "text": "Comprar apartamento en Punta Pacífica, Panamá.",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "Buscar apartamento adecuado en el momento oportuno.",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "Recordatorio: aunque no sea nuevo, tendrá la vista que quiero.",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "Invertir lo justo, remodelar poco a poco e incrementar valor.",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "Mantener esta meta como parte del plan patrimonial.",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "Comprar Mercedes Clase G63 con ganancias como símbolo de progreso.",
       "done": false,
       "notes": "",
       "priority": "Media",
