@@ -95,17 +95,17 @@
   "B. Salud y bienestar personal": [
     {
       "text": "Seguimiento a exámenes pendientes por autorización.",
-      "done": true,
-      "notes": "cita en Consultorio del Dr. Carlos Tuñon. Panama Clinic, Confirmar antes.",
-      "priority": "Alta",
-      "due": "2026-02-19"
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
     },
     {
       "text": "Continuar salud dental.",
-      "done": true,
-      "notes": "sacar la cita con tiempo.",
-      "priority": "Alta",
-      "due": "2026-02-13"
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
     },
     {
       "text": "Actividad física mínimo 3 días por semana.",
@@ -298,101 +298,245 @@
       "due": null
     }
   ],
-  "G. Otros compromisos y pendientes": [],
-  "H. Trading — Identidad, Checklist y Mantra Diario": [
+  "G. Otros compromisos y pendientes": [
     {
-      "text": "Soy una persona disciplinada y constante en el trading.",
+      "text": "Dar seguimiento a la reparación del auto (pintar retrovisores).",
       "done": false,
       "notes": "",
       "priority": "Media",
       "due": null
     },
     {
-      "text": "Mi objetivo financiero es alcanzar un millón de dólares.",
+      "text": "Dar seguimiento a publicación y venta del auto en Marketplace y Encuentra24.",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    }
+  ],
+  "H1_IDENTIDAD_OPERATIVA": [
+    {
+      "text": "Soy una persona disciplinada y constante en el trading",
       "done": false,
       "notes": "",
       "priority": "Media",
       "due": null
     },
     {
-      "text": "Mi tarea diaria es ejecutar mi proceso de trading sin improvisar.",
+      "text": "Mi objetivo financiero es alcanzar un millón de dólares",
       "done": false,
       "notes": "",
       "priority": "Media",
       "due": null
     },
     {
-      "text": "Opero con un capital inicial de 800 USD enfocado en consistencia, no prisa.",
+      "text": "Mi tarea diaria es ejecutar mi proceso de trading sin improvisar",
       "done": false,
       "notes": "",
       "priority": "Media",
       "due": null
     },
     {
-      "text": "Repito el proceso hasta que la constancia sea un hábito automático.",
+      "text": "Opero con un capital inicial de 800 USD, enfocado en duplicarlo con consistencia, no con prisa",
       "done": false,
       "notes": "",
       "priority": "Media",
       "due": null
     },
     {
-      "text": "Cuando el hábito está consolidado, incremento capital y repito el proceso.",
+      "text": "Repito el proceso hasta que la constancia sea un hábito automático",
       "done": false,
       "notes": "",
       "priority": "Media",
       "due": null
     },
     {
-      "text": "Mi prioridad es control emocional, disciplina y respeto del proceso.",
+      "text": "Cuando el hábito está consolidado, incremento el capital y repito exactamente el mismo proceso",
       "done": false,
       "notes": "",
       "priority": "Media",
       "due": null
     },
     {
-      "text": "El dinero es la consecuencia natural de ejecutar correctamente el sistema.",
+      "text": "Mi prioridad es control emocional, disciplina y respeto del proceso",
       "done": false,
       "notes": "",
       "priority": "Media",
       "due": null
     },
     {
-      "text": "Hoy solo tengo una tarea: ejecutar mi proceso de trading con disciplina.",
+      "text": "El dinero es la consecuencia natural de ejecutar correctamente el sistema",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    }
+  ],
+  "H2_MANTRA_OPERATIVO_DIARIO": [
+    {
+      "text": "Hoy solo tengo una tarea: ejecutar mi proceso de trading con disciplina",
       "done": false,
       "notes": "",
       "priority": "Media",
       "due": null
     },
     {
-      "text": "No persigo dinero, persigo consistencia.",
+      "text": "No persigo dinero, persigo consistencia",
       "done": false,
       "notes": "",
       "priority": "Media",
       "due": null
     },
     {
-      "text": "Mi capital crece como resultado de hacer bien el proceso.",
+      "text": "Mi capital crece como resultado de hacer bien el proceso, una y otra vez",
       "done": false,
       "notes": "",
       "priority": "Media",
       "due": null
     },
     {
-      "text": "Mantengo control emocional y respeto mis invalidaciones.",
+      "text": "Mantengo control emocional, sigo mis reglas y respeto mis invalidaciones",
       "done": false,
       "notes": "",
       "priority": "Media",
       "due": null
     },
     {
-      "text": "La constancia es mi ventaja.",
+      "text": "La constancia es mi ventaja",
       "done": false,
       "notes": "",
       "priority": "Media",
       "due": null
     },
     {
-      "text": "La constancia me lleva al millón.",
+      "text": "La constancia me lleva al millón",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    }
+  ],
+  "H3_ACTIVACION_DIARIA_FILTRO_DE_PERMISO": [
+    {
+      "text": "Leí el mantra operativo",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "Revisé el checklist diario",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "Estoy emocionalmente estable para operar",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "El mercado cumple mis condiciones",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "Estoy dispuesto a cerrar sesión aunque pierda",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    }
+  ],
+  "H4_EJECUCION_CONTROLADA_REGLAS_DURANTE_SESION": [
+    {
+      "text": "Operé solo Setups permitidos (A / B / C)",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "Respeté el riesgo diario máximo",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "Operé dentro del horario definido",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "No improvisé operaciones",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "No intenté recuperar pérdidas",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    }
+  ],
+  "H5_CIERRE_DE_SESION_OBLIGATORIO": [
+    {
+      "text": "Cerré la plataforma al finalizar la sesión",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "No hice overtrading",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "No abrí operaciones tardías",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "No revisé el mercado después de cerrar",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    }
+  ],
+  "H6_EVALUACION_DIARIA_NO_MONETARIA": [
+    {
+      "text": "Seguí el proceso correctamente",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "Respeté todas mis reglas",
+      "done": false,
+      "notes": "",
+      "priority": "Media",
+      "due": null
+    },
+    {
+      "text": "Mantuve control emocional durante la sesión",
       "done": false,
       "notes": "",
       "priority": "Media",
