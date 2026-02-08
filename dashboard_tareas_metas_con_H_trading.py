@@ -11,7 +11,7 @@ st.set_page_config(page_title="Dashboard Personal 2026", layout="wide")
 DATA_FILE = "tasks_data.json"
 
 # =========================
-# DEFAULT TASKS
+# DEFAULT TASKS (SOLO PRIMERA VEZ)
 # =========================
 DEFAULT_TASKS = {
     "A. Gratitud y enfoque diario": [
@@ -27,23 +27,21 @@ DEFAULT_TASKS = {
         "Decidir actuar en serio y superar bloqueos.",
         "Definir deseos, tomar decisiones y mantener disciplina.",
         "Comprometerme a ser un buen conductor.",
-        "Transmutar impulsos sexuales en energía productiva (creatividad y logros).",
+        "Transmutar impulsos sexuales en energía productiva.",
     ],
     "B. Salud y bienestar personal": [
-        "Seguimiento a exámenes pendientes por autorización; planificar operación de la vesícula.",
-        "Continuar salud dental; sacar otra cita y seguir tratamiento.",
-        "Actividad física (mínimo 3 días/semana).",
-        "Comprar comida saludable y jugo verde para la mañana.",
-        "Crear hábito de levantarme a las 5:30 a. m.",
-        "Alinear buena alimentación con comida sana, rendidora y con ahorro.",
+        "Seguimiento a exámenes pendientes por autorización.",
+        "Continuar salud dental.",
+        "Actividad física mínimo 3 días por semana.",
+        "Comprar comida saludable.",
+        "Crear hábito de levantarme a las 5:30 a.m.",
     ],
     "C. Lectura y aprendizaje": [
-        "Terminar de leer El código del dinero y luego Hábitos atómicos.",
-        "Comprar libros en Colombia (Padre Rico–Padre Pobre, Secretos mente millonaria, Mi primer millón, E-Myth).",
-        "Leer libro de Cemento Asfáltico.",
+        "Terminar El código del dinero.",
+        "Leer Hábitos Atómicos.",
         "Retomar clases de inglés.",
     ],
-    "D. Negocios y proyectos clave": [
+     "D. Negocios y proyectos clave": [
         "Seguir el plan de negocio de préstamos cripto y diseñar el MVP.",
         "Buscar CTO/cofundador para NestVault.",
         "Conseguir cliente nuevo para CONSIHSA.",
@@ -73,6 +71,23 @@ DEFAULT_TASKS = {
         "Dar seguimiento a la reparación del auto (pintar retrovisores).",
         "Dar seguimiento a publicación y venta del auto en Marketplace y Encuentra24.",
     ],
+    "H. Trading — Identidad, Checklist y Mantra Diario": [
+        "Soy una persona disciplinada y constante en el trading.",
+        "Mi objetivo financiero es alcanzar un millón de dólares.",
+        "Mi tarea diaria es ejecutar mi proceso de trading sin improvisar.",
+        "Opero con un capital inicial de 800 USD enfocado en consistencia, no prisa.",
+        "Repito el proceso hasta que la constancia sea un hábito automático.",
+        "Cuando el hábito está consolidado, incremento capital y repito el proceso.",
+        "Mi prioridad es control emocional, disciplina y respeto del proceso.",
+        "El dinero es la consecuencia natural de ejecutar correctamente el sistema.",
+
+        "Hoy solo tengo una tarea: ejecutar mi proceso de trading con disciplina.",
+        "No persigo dinero, persigo consistencia.",
+        "Mi capital crece como resultado de hacer bien el proceso.",
+        "Mantengo control emocional y respeto mis invalidaciones.",
+        "La constancia es mi ventaja.",
+        "La constancia me lleva al millón."
+    ],
     "I. Inversión patrimonial personal": [
         "Comprar apartamento en Punta Pacífica, Panamá.",
         "Buscar apartamento adecuado en el momento oportuno.",
@@ -90,60 +105,53 @@ DEFAULT_TASKS = {
 # =========================
 # DATA FUNCTIONS
 # =========================
-def load_tasks():
-    if not os.path.exists(DATA_FILE):
-        return {}
-    with open(DATA_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
-
 def save_tasks(data):
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-def normalize_tasks(data):
-    normalized = {}
-    for cat, tasks in data.items():
-        normalized[cat] = []
+def load_tasks():
+    with open(DATA_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+def build_default_structure():
+    data = {}
+    for cat, tasks in DEFAULT_TASKS.items():
+        data[cat] = []
         for t in tasks:
-            normalized[cat].append({
-                "text": t.get("text", ""),
-                "done": t.get("done", False),
-                "notes": t.get("notes", ""),
-                "priority": t.get("priority", "Media"),
-                "due": t.get("due", None)
+            data[cat].append({
+                "text": t,
+                "done": False,
+                "notes": "",
+                "priority": "Media",
+                "due": None
             })
-    return normalized
+    return data
 
-def sync_default_tasks(existing):
-    for cat, task_list in DEFAULT_TASKS.items():
-        if cat not in existing:
-            existing[cat] = []
-
-        existing_texts = {t["text"] for t in existing[cat]}
-
-        for txt in task_list:
-            if txt not in existing_texts:
-                existing[cat].append({
-                    "text": txt,
-                    "done": False,
-                    "notes": "",
-                    "priority": "Media",
-                    "due": None
-                })
-    return existing
+def normalize_tasks(data):
+    """Asegura que todas las tareas tengan todas las claves"""
+    for cat, tasks in data.items():
+        for task in tasks:
+            task.setdefault("text", "")
+            task.setdefault("done", False)
+            task.setdefault("notes", "")
+            task.setdefault("priority", "Media")
+            task.setdefault("due", None)
+    return data
 
 # =========================
-# INIT SESSION
+# INIT (CLAVE)
 # =========================
 if "tasks" not in st.session_state:
-    loaded = normalize_tasks(load_tasks())
-    st.session_state.tasks = sync_default_tasks(loaded)
-    save_tasks(st.session_state.tasks)
+    if os.path.exists(DATA_FILE):
+        st.session_state.tasks = normalize_tasks(load_tasks())
+    else:
+        st.session_state.tasks = build_default_structure()
+        save_tasks(st.session_state.tasks)
 
 # =========================
 # UI
 # =========================
-st.title("📊 Dashboard Personal 2026")
+st.title("📊 Dashboard de Tareas y Metas")
 
 modo_edicion = st.toggle("✏️ Modo edición", value=False)
 
@@ -151,11 +159,11 @@ for category, tasks in st.session_state.tasks.items():
     st.subheader(category)
 
     for idx, task in enumerate(tasks):
-        cols = st.columns([0.05, 0.45, 0.15, 0.15, 0.15, 0.05])
+        cols = st.columns([0.05, 0.4, 0.15, 0.15, 0.2, 0.05])
 
         with cols[0]:
             task["done"] = st.checkbox(
-                label="Completar tarea",
+                "done",
                 value=task["done"],
                 key=f"{category}_{idx}_done",
                 label_visibility="collapsed"
@@ -164,8 +172,8 @@ for category, tasks in st.session_state.tasks.items():
         with cols[1]:
             if modo_edicion:
                 task["text"] = st.text_input(
-                    "Texto tarea",
-                    value=task["text"],
+                    "text",
+                    task["text"],
                     key=f"{category}_{idx}_text",
                     label_visibility="collapsed"
                 )
@@ -175,7 +183,7 @@ for category, tasks in st.session_state.tasks.items():
         with cols[2]:
             if modo_edicion:
                 task["priority"] = st.selectbox(
-                    "Prioridad",
+                    "prio",
                     ["Alta", "Media", "Baja"],
                     index=["Alta", "Media", "Baja"].index(task["priority"]),
                     key=f"{category}_{idx}_prio",
@@ -186,21 +194,22 @@ for category, tasks in st.session_state.tasks.items():
 
         with cols[3]:
             if modo_edicion:
-                task["due"] = st.date_input(
-                    "Fecha",
-                    value=date.fromisoformat(task["due"]) if task["due"] else None,
+                fecha = date.fromisoformat(task["due"]) if task["due"] else None
+                new_date = st.date_input(
+                    "due",
+                    value=fecha,
                     key=f"{category}_{idx}_due",
                     label_visibility="collapsed"
                 )
-                task["due"] = task["due"].isoformat() if task["due"] else None
+                task["due"] = new_date.isoformat() if new_date else None
             else:
-                st.write(task["due"] if task["due"] else "")
+                st.write(task["due"] or "")
 
         with cols[4]:
             if modo_edicion:
                 task["notes"] = st.text_area(
-                    "Notas",
-                    value=task["notes"],
+                    "notes",
+                    task["notes"],
                     key=f"{category}_{idx}_notes",
                     label_visibility="collapsed"
                 )
