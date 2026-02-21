@@ -68,8 +68,7 @@ DEFAULT_TASKS = {
         "Estructurar uso de laboratorio, manejo de pruebas y procedimientos.",
     ],
     "G. Otros compromisos y pendientes": [
-        "Dar seguimiento a la reparación del auto (pintar retrovisores).",
-        "Dar seguimiento a publicación y venta del auto en Marketplace y Encuentra24.",
+        
     ],
     # =========================
     # H — SISTEMA DE LIBERTAD FINANCIERA
